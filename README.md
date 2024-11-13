@@ -69,27 +69,31 @@ I work with a variety of technologies and tools, and I’m always looking to lea
 
 ### 🛠️ Here's a little more about me:
 
-```kotlin
-val kaue = mapOf(
-    "languages" to arrayOf("Kotlin", "Java", "Python"),
-    "askMeAbout" to arrayOf("Backend Development", "gRPC", "Rest", "Minecraft"),
-    "technologies" to arrayOf(
-        "frameworks" to arrayOf("Spring Boot", "Micronaut", "Ktor"),
-        "databases" to arrayOf("Postgres", "Aurora", "MySQL", "DynamoDB", "MongoDB"),
-        "CI/CD" to arrayOf("GitHub Actions", "Gitlab CI", "Jenkins"),
-        "server" to arrayOf("Kubernetes", "EC2", "Serverless"),
-        "architecture" to arrayOf("Hexagonal", "Clean", "MVC")
-    ),
-    "architectureStyles" to arrayOf(
-        "Microservices",
-        "Monolithic",
-        "Cell-based"
-    ),
-    "funFacts" to arrayOf(
-        "I have a secret Minecraft server 🌍",
-        "I love building things that scale 🚀",
-        "I'm always tinkering with the latest technologies ⚙️",
-        "Debugging with a Rubber Duck is my go-to tool 🦆"
-    ),
-    "hobbies" to arrayOf("Contributing to Open Source 🌐", "Building Drones 🛸", "Playing Minecraft ⛏️")
-)
+```java
+Map<String, Object> kaueProfile = new HashMap<>();
+
+kaueProfile.put("programmingLanguages", Arrays.asList("Kotlin", "Java", "Python"));
+kaueProfile.put("topicsOfInterest", Arrays.asList("Backend Development", "gRPC", "REST APIs", "Minecraft"));
+
+Map<String, List<String>> technologies = new HashMap<>();
+technologies.put("frameworks", Arrays.asList("Spring Boot", "Micronaut", "Ktor"));
+technologies.put("databases", Arrays.asList("Postgres", "MySQL", "MongoDB", "DynamoDB", "Aurora"));
+technologies.put("ciCdTools", Arrays.asList("GitHub Actions", "GitLab CI", "Jenkins"));
+technologies.put("cloudAndServer", Arrays.asList("Kubernetes", "AWS EC2", "Serverless"));
+technologies.put("designPatterns", Arrays.asList("Hexagonal Architecture", "Clean Architecture", "MVC"));
+
+kaueProfile.put("technologies", technologies);
+
+kaueProfile.put("architecturalStyles", Arrays.asList("Microservices", "Monolithic", "Cell-based"));
+kaueProfile.put("funFacts", Arrays.asList(
+    "I secretly run a Minecraft server 🌍",
+    "I love creating scalable systems 🚀",
+    "Always experimenting with cutting-edge technologies ⚙️",
+    "Rubber Duck Debugging is my secret weapon 🦆"
+));
+
+kaueProfile.put("hobbiesAndInterests", Arrays.asList(
+    "Contributing to Open Source projects 🌐", 
+    "Building and flying drones 🛸", 
+    "Minecraft fan since 2012 ⛏️"
+));
