@@ -1,6 +1,6 @@
 # Hi, I'm Kauê! 👋
 
-![Profile Picture](https://media.giphy.com/media/3qYvlcgnIka1ayPbqB/source.gif)
+![Profile Picture](https://media0.giphy.com/media/hp4AjXQLO4s0hewg4s/giphy.gif)
 
 I'm a passionate **Software Engineering student** at [FATEC](https://www.fatecsp.br/), always learning new technologies and tools to build scalable backend systems. When I'm not coding, you can find me playing **Minecraft** or exploring new technologies.
 
@@ -60,10 +60,8 @@ I work with a variety of technologies and tools, and I’m always looking to lea
 
 ## 📫 Let's Connect!
 
-- [LinkedIn: Kauê](https://www.linkedin.com/in/kaue/)
-- [GitHub](https://github.com/kaue)
-- [Twitter](https://twitter.com/kaue) (coming soon)
-- [My Website](https://kaue.dev) (coming soon)
+- [GitHub](https://github.com/fkaue)
+- [My Website](https://fkaue.com) (coming soon)
 
 > “The only way to do great work is to love what you do.” – Steve Jobs
 
